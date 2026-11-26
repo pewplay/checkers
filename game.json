@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Checkers",
+  "description": "Jump and capture your opponent's pieces, crown kings and win at classic Checkers against the computer or a friend. Free in your browser.",
+  "about": "Checkers is the classic board game of jumps and captures on an 8×8 board. Each player starts with twelve pieces on the dark squares. Pieces move diagonally forward one square at a time, and you capture an enemy piece by jumping over it into the empty square behind. Several jumps can be chained in one turn, and capturing is mandatory whenever possible.\n\nReach the opposite side of the board and your piece is crowned king: kings can move and capture both forwards and backwards, which makes them powerful in the endgame. Play against the computer at Easy, Medium or Hard, or play with a friend on the same device. Legal moves are highlighted when you select a piece, so you always know your options.\n\nYour wins and losses against the computer are saved for each difficulty.",
+  "howToPlay": "Select one of your pieces, then tap a highlighted square to move it diagonally. Jump over an opponent's piece to capture it; if a capture is available you must take it, and you keep jumping while you can. A piece that reaches the far row becomes a king. You win when your opponent has no pieces or no legal moves left.",
+  "controls": [
+    {
+      "input": "Click / Tap",
+      "action": "Select a piece, then its destination"
+    },
+    {
+      "input": "Z / Backspace",
+      "action": "Undo your last move"
+    },
+    {
+      "input": "Esc / P",
+      "action": "Pause"
+    }
+  ],
+  "tips": [
+    "Keep your back row filled as long as possible so your opponent cannot crown kings.",
+    "Move pieces in pairs: a supported piece cannot be jumped.",
+    "Use mandatory captures to lure your opponent into a double jump for you.",
+    "In the endgame, use your kings together to trap single enemy pieces."
+  ],
+  "faq": [
+    {
+      "question": "Is Checkers free to play?",
+      "answer": "Yes. Checkers is free and runs in your browser, with no download or account."
+    },
+    {
+      "question": "Can I play Checkers on a phone or tablet?",
+      "answer": "Yes. Tap a piece and then the square you want to move to. The board fits both portrait and landscape screens."
+    },
+    {
+      "question": "Which rules does this game use?",
+      "answer": "Classic 8×8 rules: men move and capture forward only, captures are mandatory, multiple jumps are chained, and kings move one square diagonally in any direction."
+    }
+  ],
+  "category": "Board",
+  "tags": [
+    "checkers",
+    "draughts",
+    "board game",
+    "strategy",
+    "two player"
+  ],
+  "author": "PewPlay",
+  "playMode": "Both",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png",
+    "screenshots/3.png"
+  ],
+  "added": "2026-11-26",
+  "draft": false
+}
